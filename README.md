@@ -38,6 +38,19 @@ J1_PASSWORD=
 
 With that, run `yarn && yarn publish:j1`.
 
+### Querying Training Records in JupiterOne
+
+Once published, you can run a J1QL query in your JupiterOne account to generate
+reports and/or visualization.
+
+For example:
+
+```j1ql
+Find Person that completed hipaa_training return tree
+```
+
+![](j1-query-graph.png)
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
