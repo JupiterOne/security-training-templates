@@ -51,6 +51,15 @@ Find Person that completed hipaa_training return tree
 
 ![](j1-query-graph.png)
 
+Here's a query to generate a report with records:
+
+```j1ql
+find Person as p
+  that completed as r hipaa_training as t
+return
+  p.displayName, p.email, t.displayName, r.completedOn
+```
+
 ## License
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
