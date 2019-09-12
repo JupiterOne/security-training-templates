@@ -1,0 +1,14 @@
+entity:
+  entityKey: training:hipaa:2019
+  entityType: hipaa_training
+  entityClass: Training
+  properties:
+    name: HIPAA-Training-2019
+    displayName: 2019 HIPAA Security and Privacy Awareness Training
+    summary: 
+      HIPAA Security and Privacy Awareness Training, required for all employees
+      and contractors within 30 days of onboarding
+    webLink: https://security.yourcompany.com/training/hipaa
+records:
+  - userEmail: joe.smith@yourcompany.com
+    completedOn: 2019-09-11

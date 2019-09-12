@@ -1,0 +1,15 @@
+{
+  "name": "security-training-templates",
+  "version": "1.0.0",
+  "main": "publish.js",
+  "repository": "git@github.com:JupiterOne/security-training-templates.git",
+  "author": "developers@jupiterone.io",
+  "license": "MIT",
+  "scripts": {
+    "publish:j1": "node --require dotenv/config publish.js"
+  },
+  "devDependencies": {
+    "@jupiterone/jupiterone-client-nodejs": "^0.14.2",
+    "dotenv": "^8.1.0"
+  }
+}
