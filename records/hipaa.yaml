@@ -8,7 +8,7 @@ entity:
     summary: 
       HIPAA Security and Privacy Awareness Training, required for all employees
       and contractors within 30 days of onboarding
-    webLink: https://security.lifeomic.com/training/hipaa
+    webLink: https://security.yourcompany.com/training/hipaa
 records:
-  - userEmail: erkang.zheng@lifeomic.com
+  - userEmail: joe.smith@yourcompany.com
     completedOn: 2019-09-11
